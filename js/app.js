@@ -52,7 +52,7 @@ const person = prompt("Please enter your name:", "Harry Potter");
 if (person != null) {
 	welcomePopUp.style.display='block';
 	document.getElementById("welcome-message").innerHTML =
-	"Hello " + person + "! How are you today?";
+	"Hello " + person + "! How are you today? <br /><br /> Let's test how strong is your memory " + person + "!<br /><br /> If you don`t finish the game under 16 moves you`ll start losing stars.";
   }
 window.onclick = function(event) {
 	if (event.target == welcomePopUp) {
