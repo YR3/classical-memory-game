@@ -17,7 +17,8 @@ body {
 }
 
 body {
-    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
+    background: #ffffff url('../img/geometry2.png');
+    /* Background pattern from Subtle Patterns */
     font-family: 'Coda', cursive;
 }
 
@@ -40,7 +41,7 @@ h1 {
 #welcome-popup.welcome {
     display: none;
 }
-    
+
 .welcome {
     position: fixed;
     z-index: 1;
@@ -48,13 +49,14 @@ h1 {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .welcome-content {
-    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */ 
+    background: #ffffff url('../img/geometry2.png');
+    /* Background pattern from Subtle Patterns */
     padding: 1% 5% 5% 5%;
-    }
+}
 
 .welcome-style {
     background: linear-gradient(160deg, #aa7ecd 0%, #02ccba 100%);
@@ -80,7 +82,8 @@ h1 {
     font-family: 'Coda', cursive;
 }
 
-.button-start:hover, .button-start:focus {
+.button-start:hover,
+.button-start:focus {
     cursor: pointer;
 }
 
@@ -131,8 +134,8 @@ h1 {
 }
 
 .deck .card:after {
-    content:'';
-    padding-top:100%;
+    content: '';
+    padding-top: 100%;
 }
 
 .hidden {
@@ -140,12 +143,13 @@ h1 {
 }
 
 @media (hover: hover) {
-.hidden:hover {
-    background: #02b3e4;
-    transform: scale(1.1);
-    transform: rotateX(180deg) rotateY(180deg);    
+    .hidden:hover {
+        background: #02b3e4;
+        transform: scale(1.1);
+        transform: rotateX(180deg) rotateY(180deg);
     }
 }
+
 .deck .card.match {
     cursor: default;
     background: #02ccba;
@@ -192,6 +196,7 @@ h1 {
 .score-panel .moves {
     width: 25%;
 }
+
 .score-panel .restart {
     width: 25%;
     float: right;
@@ -213,13 +218,14 @@ h1 {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .modal-content {
-    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */ 
+    background: #ffffff url('../img/geometry2.png');
+    /* Background pattern from Subtle Patterns */
     padding: 1% 5% 5% 5%;
-    }
+}
 
 .modal-style {
     background: linear-gradient(160deg, #aa7ecd 0%, #02ccba 100%);
@@ -238,7 +244,8 @@ h1 {
     padding-top: 3%;
 }
 
-.close-button:hover, .close-button:focus {
+.close-button:hover,
+.close-button:focus {
     color: #000;
     cursor: pointer;
 }
@@ -257,14 +264,15 @@ h1 {
     font-family: 'Coda', cursive;
 }
 
-#button-restart:hover, #button-restart:focus {
+#button-restart:hover,
+#button-restart:focus {
     cursor: pointer;
 }
 
-footer  {
+footer {
     text-align: center;
 }
-    
+
 /*
 * Media Queries
 */
@@ -275,16 +283,19 @@ footer  {
         margin: 0 auto;
         flex-basis: 40%;
     }
+
     .deck {
         width: 95%;
         padding: 3%;
         margin: 0 auto;
         min-height: 100%;
     }
+
     .deck .card {
         height: 92px;
         margin-top: 2%;
     }
+
     .modal-style {
         width: 90%;
         left: 5%;
@@ -339,15 +350,47 @@ footer  {
 /* Shake animation from: w3schools */
 
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}

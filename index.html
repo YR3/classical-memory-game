@@ -1,4 +1,6 @@
-<html lang="us-en">
+<!DOCTYPE html>
+<html lang="en-us">
+
 <head>
     <meta charset="utf-8">
     <title>Matching Game</title>
@@ -11,19 +13,20 @@
     <link rel="stylesheet" href="css/app.css">
 
 </head>
+
 <body>
 
-        <div id="welcome-popup" class="welcome">
-                <div id="welcome-message-content" class="welcome-style">
-                    <div class="welcome-content">
-                         <span class="close-button close" id="close-x">&times;</span>
-                    <h3>Welcome!</h3>
-                    <p id="welcome-message"></p>
-                    <button class="button-start close" id="start">Start</button>
-                    </div>
-                   
-                </div>
+    <div id="welcome-popup" class="welcome">
+        <div id="welcome-message-content" class="welcome-style">
+            <div class="welcome-content">
+                <span class="close-button close" id="close-x">&times;</span>
+                <h3>Welcome!</h3>
+                <p id="welcome-message"></p>
+                <button class="button-start close" id="start">Start</button>
             </div>
+
+        </div>
+    </div>
 
     <div class="container">
         <header>
@@ -31,17 +34,17 @@
         </header>
 
         <section class="score-panel">
-        	 
+
             <ul class="stars">
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
             </ul>
-            
-        	<div class="moves">
+
+            <div class="moves">
                 <span id="movesMade">0 Moves </span>
             </div>
-            
+
             <div class="timer">
                 <i class="fa fa-clock-o"></i>
                 <span id="timer">
@@ -50,8 +53,8 @@
             </div>
 
             <div class="restart">
-        		<i class="fa fa-repeat"></i>
-        	</div>
+                <i class="fa fa-repeat"></i>
+            </div>
         </section>
 
         <ul class="deck" id="deck">
@@ -110,27 +113,28 @@
     <div id="success-modal" class="modal">
         <div id="success-modal-content" class="modal-style">
             <div class="modal-content">
-                 <span id="success-modal-close" class="close-button">&times;</span>
-            <h3 id="congrats">Congratulations!</h3>
-            <p id="success-message">Test</p>
-            <div id="star-rating-message"></div>
-            <button id="button-restart">Play again?</button>
+                <span id="success-modal-close" class="close-button">&times;</span>
+                <h3 id="congrats">Congratulations!</h3>
+                <p id="success-message">Test</p>
+                <div id="star-rating-message"></div>
+                <button id="button-restart">Play again?</button>
             </div>
-           
+
         </div>
     </div>
     <footer>
-            <p>Made with <i class="fa fa-heart"></i> by:
-                <a href="https://yazeed.works"> Yazeed Al`Fadani</a>.</p>
-                <!-- <div class="container">
+        <p>Made with <i class="fa fa-heart"></i> by:
+            <a href="https://yazeed.works"> Yazeed Al`Fadani</a>.</p>
+        <!-- <div class="container">
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/yazeed-al-fadani/"><i class="icon ion-social-linkedin"></i></a>
                 <a href="https://github.com/YR3"><i class="icon ion-social-github"></i></a>
                 <a href="https://twitter.com/Yazedie"><i class="icon ion-social-twitter"></i></a>
             </div>
         </div> -->
-        </footer>
+    </footer>
 
     <script src="js/app.js"></script>
 </body>
+
 </html>
