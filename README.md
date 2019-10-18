@@ -1,2 +1,2 @@
-# Coming Soon
-# Memory Game Project
+# Memory Game Project V1.0
+
