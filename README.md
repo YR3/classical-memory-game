@@ -45,3 +45,5 @@ The player could restart the game at any time by clicking on the restart icon.
 * Shuffle function from [stackoverflow](http://stackoverflow.com/a/2450976).
 * Icons from Font [fontawesome](https://fontawesome.com/v4.7.0/icons/) - [cdn](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css).
 * Shake animation from [w3schools](https://www.w3schools.com/howto/howto_css_shake_image.asp).
+### Try it out!
+https://yr3.github.io/classical-memory-game/
