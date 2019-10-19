@@ -34,7 +34,7 @@ The stars rating depends on the number of moves:
 *  :star::star::star: If the moves  are less than 16.
 * :star::star: If the moves  are less than 24.
 * :star: If the moves  are less than 26.
-* :sad: If the move are more than 27
+* ☹ If the moves are more than 27.
 
 
 The game ends once all cards have been correctly matched.
@@ -45,5 +45,3 @@ The player could restart the game at any time by clicking on the restart icon.
 * Shuffle function from [stackoverflow](http://stackoverflow.com/a/2450976).
 * Icons from Font [fontawesome](https://fontawesome.com/v4.7.0/icons/) - [cdn](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css).
 * Shake animation from [w3schools](https://www.w3schools.com/howto/howto_css_shake_image.asp).
-### Try it out!
-https://yr3.github.io/classical-memory-game/
